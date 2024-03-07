@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+    scroll-behavior: smooth;
+}
+body {
+    /* background-image: url("Murakami_Shiina_Holding_Computer_C_Programming_Language.png"); */
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(75deg,red,rgb(206, 74, 74),rgb(226, 142, 142));
+
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    background-image: url("Murakami_Shiina_Holding_Computer_C_Programming_Language.png");
+    background-repeat: no-repeat;
+
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+#page>nav{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+#page>nav>button{
+  color: #ffffff;
+}
+
+#page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #dc2424;
+}
+#page>nav>h3{
+    font-weight: 400;
+    color: #000000;
+    font-size: larger;
+}
+/* .container{
+    color: #000000;
+    margin-left: 70%;
+    font-size: larger;
+    border: 10%;
+} */
+/* .conatiner{
+    position: absolute;
+    bottom: 0%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    color: #ff823d;
+} */
+
+main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main article {
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+main article h3 {
+    color: #000000;
+}
+
+main article p {
+    margin-top: 10px;
+}
